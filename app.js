@@ -1,6 +1,7 @@
 var express = require( 'express' );
 var morgan = require( 'morgan' );
 var swig = require('swig');
+var bodyParser = require('body-parser')
 var app = express(); // creates an instance of an express application
 var routes = require('./routes/');
 
